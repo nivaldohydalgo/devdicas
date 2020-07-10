@@ -1,13 +1,52 @@
 .App {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    /*-- Flex --*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /*-- Font --*/
+    font-size: calc(10px + 2vmin);
+    color: #444444;
+    text-align: center;
+}
 
-  text-align: center;
+.App-Top {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 10vh;
+    margin-bottom: 2vh;
+    /*-- Flex --*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*-- Decoration --*/
+    box-shadow: 0 3px 10px 0 #999999;
+}
+
+.App-Middle {
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 200px;
+    /*-- Flex --*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.App-Bottom {
+    background-color: #CCCCCC;
+    width: 100%;
+    min-height: 100px;
+    /*-- Flex --*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
 }
 

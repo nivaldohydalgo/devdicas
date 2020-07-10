@@ -4,7 +4,19 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            Nivaldo
+            
+            <div className="App-Top">
+                Top
+            </div>
+
+            <div className="App-Middle">
+                Meio
+            </div>
+
+            <div className="App-Bottom">
+                Bottom
+            </div>
+            
         </div>
     );
 }
