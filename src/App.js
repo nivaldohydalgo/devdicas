@@ -12,14 +12,17 @@ function App() {
                     <img className="Image-Icon-Dev" src={devIcon}></img>
                 </div>
                 <div className="App-Left-Name">
-                    devDicas
+                    www.devdicas.com
                 </div>
                 <div className="App-Left-Icons">
                     <span class="material-icons Image-Icon-Menu">menu</span>    
                 </div>
             </div>
 
+            <div className="Popup-Menu">Dicas  Ferramentas</div>
+
             <div className="App-Right">
+                <div className="App-Dev-Dicas">devDicas</div>
                 <div>Right 001</div>
                 <div>Right 001</div>
                 <div>Right 003</div>

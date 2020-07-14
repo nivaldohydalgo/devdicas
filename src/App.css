@@ -27,7 +27,7 @@
 }
 
 .App-Left-Name {
-    font-size: 6vmin;
+    font-size: 4vmin;
     font-weight: bold;
     color: #e2711d;
     /*-- Text Rotation --*/
@@ -58,6 +58,29 @@
     height: auto;
 }
 
+.Popup-Menu {
+    background-color: #e63946;
+    opacity: 0.9;
+    min-width: 70%;
+    min-height: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left: 15vmin;
+    bottom: 6vmin;
+    border-radius: 7vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+
+    box-shadow: 5px 6px 7px #888888;
+}
+
 /*----------------------------------------------
                   Style RIGHT
 ----------------------------------------------*/
@@ -67,6 +90,12 @@
     width: 100%;
     padding-left: 13vmin;
     padding-right: 3vmin;
+}
+
+.App-Dev-Dicas {
+    color: chocolate;
+    font-size: calc(16px + 10vmin);
+    font-weight: bold;
 }
 
 /*==================================================================*/
