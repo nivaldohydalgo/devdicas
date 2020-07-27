@@ -1,0 +1,44 @@
+
+.Header-Style {
+    width: 100%;
+    min-height: 12vmin;
+    display: flex;
+    flex-direction: row;
+}
+
+.Header-Box-Icon-Style {
+    margin-left: 3vmin;
+    margin-right: 3vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Icon-Style {
+    width: 12vmin;
+}
+
+.Header-Logo-Box-Style {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-Logo-Text {
+    margin-top: -2vmin;
+    margin-bottom: -2vmin;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12vmin;
+    color: #e63946;
+}
+
+.Header-Name-Text {
+    margin-bottom: 2vmin;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vmin;
+    color: #666666;
+    font-weight: bold;
+}

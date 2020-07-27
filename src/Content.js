@@ -1,49 +1,14 @@
-import React, { useState } from 'react';
-import './App.css';
+import React from 'react'
+import './Content.css'
 
-import Header from './Header'
-import Content from './Content'
-import MenuBox from './MenuBox'
+function Content() {
 
-import MenuIcon from './components/MenuIcon'
-
-
-
-function App() {
-
-    const [showMenu, setShowMenu] = useState(false);
-
-    // const prompt1 = "C:\>node --version"
-    /*
-    const clickIconMenu = () => {
-        console.log("Clicou no IconMenu")
-        setShowMenu( showMenu ? false : true )
-    }
-    */
-
+    const prompt1 = "C:\>node --version"
 
     return (
-        <div className="App-Style">
-
-            <Header />
-
-            <Content />
-
-            { showMenu
-                ? <MenuBox setShowMenu={setShowMenu} />
-                : <MenuIcon setShowMenu={setShowMenu} />
-            }
-
-{/*
-            <div className="App-Top">
-                <div>
-                    <img className="App-Top-Icon-Image" src={devIcon}></img>
-                </div>
-                <div className="App-Top-Logo">
-                    devDicas
-                </div>
-            </div>
-
+        <div className="Content-Style">
+ 
+ 
             <div className="App-Content">
                 <div className="App-Content-Title">
                     Como instalar o Node JS e executar um Hello Word! 
@@ -60,15 +25,10 @@ function App() {
                     <p>Pronto, o Node JS já está instalado no seu computador</p>
                 </div>
             </div>
-
-            <div className="App-Fixed-Menu">
-                Menu
-            </div>
-*/}
-
-
+        
+ 
         </div>
-    );
+    )
 }
 
-export default App;
+export default Content;

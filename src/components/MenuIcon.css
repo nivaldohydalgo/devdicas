@@ -1,0 +1,21 @@
+
+.MenuIcon-Style {
+    background-color: #4ea8de;
+    position: fixed;
+    width: 16vmin;
+    height: 16vmin;
+    right: 4vmin;
+    bottom: 4vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 4px 6px 12px grey;
+    opacity: 0.8;
+}
+
+.Icon-Style {
+    font-size: 10vmin;
+    color: #FFFFFF;
+}

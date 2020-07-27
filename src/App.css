@@ -1,13 +1,24 @@
-.App {
+
+.App-Style {
     background-color: #FFFFFF;
-    min-width: 100%;
+    width: 100%;
     min-height: 100vh;
-    /*-- Flex --*/
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    /*-- Font --*/
+}
+
+
+/*------------------------------------------------
+.App {
+    background-color: #FFFFFF;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-size: calc(10px + 2vmin);
     color: #666666;
@@ -16,7 +27,6 @@
 
 .App-Top {
     min-width: 100%;
-    /*-- Flex --*/
     display: flex;
     flex-direction: row;
 }
@@ -27,13 +37,11 @@
 
 .App-Top-Logo {
     min-height: 18vmin;
-    /*-- Flex --*/
     display: flex;
     flex: 1;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    /*-- Font --*/
     font-family: 'Oswald', sans-serif;
     font-size: 12vmin;
     color: #e63946;
@@ -46,7 +54,6 @@
     margin-left: 4vmin;
     margin-right: 4vmin;
     margin-bottom: 6vmin;
-    /*-- Flex --*/
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -56,7 +63,6 @@
 }
 
 .App-Content-Title {
-    /*-- Font --*/
     font-family: 'Oswald', sans-serif;
     font-size: 6vmin;
     font-weight: bold;
@@ -65,7 +71,6 @@
 }
 
 .App-Content-Text {
-    /*-- Font --*/
     font-family: 'Roboto', sans-serif;
     font-size: 4vmin;
     color: #222222;
@@ -78,7 +83,6 @@
     margin-left: 8vmin;
     margin-right: 8vmin;
     padding: 3vmin;
-    /*-- Font --*/
     font-family: 'Courier New', 'Roboto', sans-serif;
     font-size: 4vmin;
     color: #FFFFFF;
@@ -95,3 +99,5 @@
     height: 18vmin;
     border-radius: 9vmin;
 }
+
+*/
