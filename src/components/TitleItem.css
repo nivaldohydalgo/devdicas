@@ -1,0 +1,12 @@
+
+.TitleItem-Style {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vmin;
+    font-weight: bold;
+    color: #333333;
+}
+
+.TitleItem-Icon {
+    width: 6vmin;
+    padding-right: 1vmin;
+}

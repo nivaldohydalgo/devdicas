@@ -1,5 +1,19 @@
 
 .MenuBox-Style {
+    background-color: #4ea8de;
+    position: fixed;
+    right: 4vmin;
+    bottom: 4vmin;
+    width: auto;
+    min-height: auto;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8vmin;
+    box-shadow: 4px 6px 12px grey;
+    opacity: 0.95;
+
+/*
     background-color: #f7fff7;
     position: fixed;
     left: 0;
@@ -8,25 +22,39 @@
     min-height: 16vmin;
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 10px grey; 
+    box-shadow: 0 0 10px grey;
+*/ 
 }
 
 .MenuBox-Itens {
     flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.Menu-Item {
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+    padding-left: 6vmin;
+    padding-right: 6vmin;
+    font-size: 8vmin;
+    color: #FFFFFF;
 }
 
 .MenuBox-Close {
     padding-top: 1vmin;
     padding-left: 2vmin;
     padding-right: 2vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .MenuBox-Close-Icon {
     font-size: 8vmin;
     font-weight: bold;
-    color: #ef233c;
+    color: #FFFFFF;
 }
