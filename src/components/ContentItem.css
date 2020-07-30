@@ -3,8 +3,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 4vmin;
     color: #222222;
-    text-align: center;
-
+    text-align: initial;
 }
 
 .ContentItem-Prompt {
@@ -16,5 +15,13 @@
     font-size: 4vmin;
     color: #FFFFFF;
     text-align: start;
+}
 
+.ContentItem-Center {
+    text-align: center;
+}
+
+.ContentItem-Style a {
+    text-decoration: none;
+    font-size: 5vmin;
 }

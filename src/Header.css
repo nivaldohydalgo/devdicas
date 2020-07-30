@@ -16,7 +16,7 @@
 }
 
 .Header-Icon-Style {
-    width: 12vmin;
+    width: 16vmin;
 }
 
 .Header-Logo-Box-Style {
@@ -31,14 +31,14 @@
     margin-top: -2vmin;
     margin-bottom: -2vmin;
     font-family: 'Oswald', sans-serif;
-    font-size: 12vmin;
+    font-size: 16vmin;
     color: #e63946;
 }
 
 .Header-Name-Text {
     margin-bottom: 2vmin;
     font-family: 'Roboto', sans-serif;
-    font-size: 2vmin;
+    font-size: 3vmin;
     color: #666666;
     font-weight: bold;
 }

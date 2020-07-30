@@ -20,7 +20,7 @@ function Content() {
 
                 <ContentItem>
                     <p>O Node JS está disponível para download no site oficial:</p>
-                    <p><a href="https://nodejs.org">nodejs.org</a></p>
+                    <p className="ContentItem-Center"><a href="https://nodejs.org">https://nodejs.org/</a></p>
                     <p>Provavelmente o site irá reconhecer o seu sistema operacional, e irá mostrar o link para o download já adequado ao seu sistema</p>
                     <p>Prefira a versão LTS que o site recomenda para a maioria dos usuários, porque é a versão mais estável do framework.</p>
                     <p>Faça o download do instalador e execute concordando com as opções padrão, que são suficientes para um primeiro contato com o aplicativo.</p>

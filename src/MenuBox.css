@@ -1,56 +1,61 @@
 
 .MenuBox-Style {
-    background-color: #4ea8de;
     position: fixed;
     right: 4vmin;
     bottom: 4vmin;
     width: auto;
     min-height: auto;
-    padding: 2vmin;
-    display: flex;
-    flex-direction: column;
-    border-radius: 8vmin;
-    box-shadow: 4px 6px 12px grey;
-    opacity: 0.95;
-
-/*
-    background-color: #f7fff7;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    min-height: 16vmin;
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 10px grey;
-*/ 
 }
 
 .MenuBox-Itens {
+    background-color: #4ea8de;
+    padding: 4vmin;
+    padding-left: 8vmin;
+    padding-right: 8vmin;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 8vmin;
+    box-shadow: 4px 6px 12px grey;
+    opacity: 0.95;
 }
 
 .Menu-Item {
+    background-color: #3d98cd;
+    margin-top: 1vmin;
+    margin-bottom: 1vmin;
+    width: 90%;
+    padding-left: 6vmin;
+    padding-right: 6vmin;
+/*
     padding-top: 2vmin;
     padding-bottom: 2vmin;
     padding-left: 6vmin;
     padding-right: 6vmin;
+*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vmin;
+    
     font-size: 8vmin;
     color: #FFFFFF;
 }
 
-.MenuBox-Close {
-    padding-top: 1vmin;
-    padding-left: 2vmin;
-    padding-right: 2vmin;
+.MenuBox-Close-Box {
+    background-color: #444444;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    padding: 0.6vmin;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    box-shadow: 4px 6px 12px grey;
+    opacity: 0.5;
 }
 
 .MenuBox-Close-Icon {

@@ -5,8 +5,10 @@ function MenuBox(props) {
 
     return (
         <div className="MenuBox-Style">
-            <div className="MenuBox-Close">
-                <span class="material-icons MenuBox-Close-Icon" onClick={() => props.setShowMenu(false)}>close</span>
+            <div>
+                <div className="MenuBox-Close-Box">
+                    <span class="material-icons MenuBox-Close-Icon" onClick={() => props.setShowMenu(false)}>close</span>
+                </div>
             </div>  
             <div className="MenuBox-Itens">
                 <div className="Menu-Item">
