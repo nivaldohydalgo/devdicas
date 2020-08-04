@@ -1,52 +1,13 @@
 
 .Content-Style {
-    width: 100%;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-
-}
-
-/*---------------------------------------------------*/
-
-.App-Content {
     background-color: #FFFFFF;
+    width: 90%;
     margin-top: 6vmin;
-    margin-left: 4vmin;
-    margin-right: 4vmin;
-    margin-bottom: 6vmin;
-    display: flex;
+    margin-bottom: 26vmin;
     flex: 1;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 
-.App-Content-Title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 10vmin;
-    font-weight: bold;
-    color: #333333;
-
-}
-
-.App-Content-Text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 5vmin;
-    color: #222222;
-    text-align: center;
-
-}
-
-.App-Content-Prompt {
-    background-color: #000000;
-    margin-left: 8vmin;
-    margin-right: 8vmin;
-    padding: 3vmin;
-    font-family: 'Courier New', 'Roboto', sans-serif;
-    font-size: 5vmin;
-    color: #FFFFFF;
-    text-align: start;
-
-}

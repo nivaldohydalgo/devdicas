@@ -11,7 +11,10 @@ function Header() {
                 <img className="Header-Icon-Style" src={devIcon}></img>
             </div>
             <div className="Header-Logo-Box-Style">
-                <div className="Header-Logo-Text">devDicas</div>
+                <div className="Header-Logo-Text">
+                    <span className="Text-Dev">dev</span>
+                    <span className="Text-Dicas">Dicas</span>
+                </div>
                 <div className="Header-Name-Text">by nivaldo hydalgo</div>
             </div>
         </div>
