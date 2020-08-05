@@ -7,14 +7,15 @@
 }
 
 .ContentItem-Prompt {
-    background-color: #000000;
+    background-color: #1e1e1e;
     margin-left: 10vmin;
     margin-right: 10vmin;
     padding: 3vmin;
     font-family: 'Courier New', 'Roboto', sans-serif;
     font-size: 4vmin;
-    color: #FFFFFF;
+    color: #8cdcfe;
     text-align: start;
+    font-weight: bold;
     border-radius: 1vmin;
 }
 
