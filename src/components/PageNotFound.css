@@ -1,0 +1,22 @@
+
+.PageNotFound-Style {
+    min-height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PageNotFound-Style p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    color: #e63946;
+    font-weight: bold;
+}
+
+.PageNotFound-Style span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vmin;
+    color: #2f3e46;
+    font-style: italic;
+}

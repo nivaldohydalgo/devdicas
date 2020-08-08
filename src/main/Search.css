@@ -1,0 +1,11 @@
+.Search-Style {
+    min-height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 6vmin;
+    color: #00bbf9;
+    font-weight: bold;
+}
