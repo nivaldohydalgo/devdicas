@@ -16,7 +16,14 @@
 
 .PageNotFound-Style span {
     font-family: 'Roboto', sans-serif;
-    font-size: 3vmin;
+    font-size: 3.5vmin;
     color: #2f3e46;
     font-style: italic;
+}
+
+.PageNotFound-Style small {
+    margin-top: 4vmin;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vmin;
+    color: #2f3e46;
 }
