@@ -1,14 +1,28 @@
 import React from 'react'
 import './ListTools.css'
 
+import { GetGroup } from '../db/DbMenu'
+import ShowGroup from '../components/ShowGroup'
+import ShowTool from '../components/ShowTool'
+
+const ws = {
+    group: {},
+    tool: {},
+    articles: [],
+    qtArticles: ' ',
+}
+
 function ListTools(props) {
     
+    const ListTool = (tool) => {
+        return ( <ShowTool group={props.group} tool={tool} select={props.select} inQt={true} /> )
+    }
+
+    ws.group = GetGroup(props.group)
     return (
         <div className="ListTools-Style">
-            <h4>ListTools Page</h4>
-            <p>Group: {props.group} Tool: {props.tool} Id: {props.id}</p>
-            <p onClick={() => props.select(props.group, 1, 0)}>Node JS</p>
-            <p onClick={() => props.select(props.group, 2, 0)}>React JS</p>
+            <ShowGroup group={props.group} />
+            { ws.group.tools.map( ListTool ) }
         </div>
     )
 }

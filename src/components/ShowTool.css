@@ -1,0 +1,23 @@
+
+.ShowTool-Style {
+    margin-top: 8vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Oswald', sans-serif;
+    font-size: 8vmin;
+    font-weight: bold;
+    color: #333333;
+}
+
+.ShowTool-Icon {
+    width: 8vmin;
+    padding-right: 1vmin;
+}
+
+.Qt-Articles-Style {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vmin;
+    color: #333333;
+}

@@ -1,7 +1,6 @@
 
 const ws = {
     ind: 0,
-//    id: 0,
 }
 
 const DbGroups = [
@@ -9,16 +8,19 @@ const DbGroups = [
         name: "tips",
         title: "Dicas",
         inTool: true,
+        tools: [ 1, 2 ],
     },
     {   id: 2,
         name: "tools",
         title: "Ferramentas",
         inTool: true,
+        tools: [ 1, 2 ],
     },
     {   id: 3,
         name: "projects",
         title: "Projetos",
         inTool: true,
+        tools: [ 2 ],
     },
     {   id: 4,
         name: "varieties",

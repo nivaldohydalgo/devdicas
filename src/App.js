@@ -18,6 +18,7 @@ function App() {
         setGroup(gr)
         setTool(tl)
         setId(id)
+        setShowMenu(false)
     }
 
     return (
