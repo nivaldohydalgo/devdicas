@@ -14,14 +14,20 @@ const ws = {
 
 function ListTools(props) {
     
-    const ListTool = (tool) => {
-        return ( <ShowTool group={props.group} tool={tool} select={props.select} inQt={true} /> )
+    function ListTool(tool) {
+        return ( 
+            <div key={tool.toString()}>
+                <ShowTool group={props.group} tool={tool} select={props.select} inQt={true} /> 
+            </div>
+        )
     }
 
     ws.group = GetGroup(props.group)
     return (
         <div className="ListTools-Style">
-            <ShowGroup group={props.group} />
+            <div>
+                <ShowGroup group={props.group} />
+            </div>
             { ws.group.tools.map( ListTool ) }
         </div>
     )

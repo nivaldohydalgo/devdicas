@@ -20,14 +20,14 @@ export const DbList = [
         tool: 1,
         title: "Como instalar o Node JS em seu computador Windows",
         description: "Passo a passo para fazer o download e instalar o Node JS em computadores com sistema Windows",
-        publicationDate: new Date(2020, 8, 9, 0, 0, 0, 0),
+        publicationDate: "09/08/2020",
     },
     {   id: 2,
         group: 2,
         tool: 1,
         title: "Criando um Hello Word com o Node JS no terminal",
         description: "Como executar um programa javascript simples com o Node JS e exibir um Hello Word no terminal",
-        publicationDate: new Date(2020, 8, 9, 0, 0, 0, 0),
+        publicationDate: "09/08/2020",
     },
 ]
 

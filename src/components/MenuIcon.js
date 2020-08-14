@@ -5,7 +5,7 @@ function MenuIcon(props) {
 
     return (
         <div className="MenuIcon-Style" onClick={() => props.setShowMenu(true)}>
-            <span class="material-icons Icon-Style">menu</span>
+            <span className="material-icons Icon-Style">menu</span>
         </div>
     )
 }

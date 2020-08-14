@@ -2,7 +2,6 @@ import React from 'react'
 import './Content.css'
 
 // import TitleItem from './components/TitleItem'
-// import ContentItem from './components/ContentItem'
 
 import Home from './main/Home'
 import Search from './main/Search'
@@ -31,11 +30,11 @@ function Content(props) {
     if ( props.group === 0 ) {
         //*-- Group 0 - HOME --*//
         switch (props.id) {
-            case 0: { return( <Home /> ) } break;
-            case 1: { return( <Search /> ) } break;
-            case 2: { return( <Contact /> ) } break;
-            case 3: { return( <About /> ) } break;
-            default: { return( <PageNotFound {...props} /> ) };
+            case 0: return( <Home /> );
+            case 1: return( <Search /> );
+            case 2: return( <Contact /> );
+            case 3: return( <About /> );
+            default: return( <PageNotFound {...props} /> );
         }
     } else {
         //*-- Group > 0 - DEMAIS GRUPOS --*//

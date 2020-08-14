@@ -26,6 +26,7 @@ const DbGroups = [
         name: "varieties",
         title: "Variedades",
         inTool: false,
+        tools: [ ],
     },
 ]
 

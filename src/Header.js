@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="Header-Style">
             <div className="Header-Box-Icon-Style">
-                <img className="Header-Icon-Style" src={devIcon}></img>
+                <img className="Header-Icon-Style" src={devIcon} alt="devDicas"></img>
             </div>
             <div className="Header-Logo-Box-Style">
                 <div className="Header-Logo-Text">

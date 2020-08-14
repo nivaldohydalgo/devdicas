@@ -52,7 +52,7 @@ function ShowTool(props) {
             <div className="ShowTool-Style">
                 <div onClick={() => props.select(props.group,props.tool,0)}>
                     { ws.inIcon   
-                        ? <img className="ShowTool-Icon" src={ws.icon}></img>
+                        ? <img className="ShowTool-Icon" src={ws.icon} alt=" "></img>
                         : null
                     }
                     <span>{ ws.tool.title }</span>
